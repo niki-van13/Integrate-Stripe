@@ -1,0 +1,51 @@
+[
+    {
+        "id": "",
+        "title": "iPhone X",
+        "description": "Last years phone from Apple with a beautiful all display front.",
+        "image": "iPhoneX.png",
+        "price": 11495
+    },{
+        "id": "",
+        "title": "One Plus 5",
+        "description": "Sleek and powerful smartphone from One Plus.",
+        "image": "OnePlus5.png",
+        "price": 4995
+    },{
+        "id": "",
+        "title": "Galaxy S8",
+        "description": "Really cool edge to edge smartphone from Samsung.",
+        "image": "SamsungS8.png",
+        "price": 7990
+    },{
+        "id": "",
+        "title": "LG V30",
+        "description": "Super nice and beautiful smartphone from LG.",
+        "image": "LGV30.png",
+        "price": 7495
+    },{
+        "id": "",
+        "title": "Samsung Galaxy S20 5G",
+        "description": "Powerfull 64 MP camera & 30x zoom",
+        "image": "Galaxys20.png",
+        "price": 10995
+    },{
+        "id": "",
+        "title": "Huawei P40 Pro",
+        "description": "Sleek smartphone from One Plus.",
+        "image": "HuaweiP40Pro.png",
+        "price": 8995
+    },{
+        "id": "",
+        "title": "Sony Xperia II 5G",
+        "description": "The latest technology and 5G connectivity.",
+        "image": "SonyXperia5G.png",
+        "price": 13495
+    },{
+        "id": "",
+        "title": "Samsung Galaxy Z Flip",
+        "description": "Innovative shape and foldable screen",
+        "image": "SamsungGalaxyZFlip.png",
+        "price": 13495
+    }
+]

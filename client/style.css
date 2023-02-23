@@ -1,0 +1,206 @@
+body {
+    font-family: Helvetica,Sans-serif;
+    margin: 0;
+    color: #FFF;
+    padding-top: 80px;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 1em 2em;
+    background-color: #212121;
+    z-index: 1;
+}
+
+header h1 {
+    font-size: 2.5em;
+    display: inline-block;
+    margin: 0;
+    cursor: pointer;
+}
+header h1:hover {
+    color: #5596F5;
+}
+
+header a {
+    font-size: 2.5em;
+    float: right;
+    margin: 0;
+    cursor: pointer;
+}
+header a:hover {
+    color: #5596F5;
+}
+
+#main {
+    color: #212121;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+li {
+    height: 90vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 1em;
+    background: linear-gradient(#fff, #F5F5F5);
+}
+
+li h3 {
+    font-size: 3em;
+    margin: 0;
+}
+li img {
+    height: 55%;
+    width: auto;
+}
+li span {
+    font-size: 1.3em;
+}
+button {
+    font-size: 1.5em;
+    border: none;
+    border-radius: 8px;
+    padding: 0.5em 1em;
+    background: #5596F5;
+    color: #fff;
+    margin-top: 1em;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #447CD0;
+}
+
+@media (max-width: 640px) {
+    body {
+        padding-top: 60px;
+        font-size: 0.5em;
+    }
+}
+
+/* Shopping cart */
+#main > div > h2 {
+    font-size: 3em;
+    text-align: center;
+}
+#main > div ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+#main > div li {
+    font-size: 0.7em;
+    height: auto;
+    margin: 1em;
+    background: #F5F5F5;
+    border: 2px solid #447CD0;
+    border-radius: 10px;
+}
+#main > div li img {
+    height: 15em;
+    width: auto;
+}
+#main > div li button {
+    background-color: #E64E4E;
+}
+#main > div li button:hover {
+    background-color: #E23D3D;
+}
+
+#main > div div {
+    text-align: center;
+    margin-bottom: 4em;
+}
+#main > div > h2 {
+    margin-top: 1em;
+}
+
+mainS {
+    color: black;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+section {
+    border: solid;
+	font-weight: bold;
+    border-color: green;
+    border-radius: 40px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+sectionC {
+    border: solid;
+	font-weight: bold;
+    border-color: red;
+    border-radius: 40px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.w3docs {
+    margin-left: 70px;
+    font-weight: bold;
+    text-align: left;
+    font-family: sans-serif, bold, Arial, Helvetica;
+    font-size: 14px;
+  }
+  .buttons {
+    display: flex;
+    align-items: center;
+    width: 100%;
+  }
+  div input {
+    margin-right: 10px;
+  }
+  form {
+    margin: 0 auto;
+    width: 600px;
+  }
+  form input {
+    padding: 10px;
+  }
+  form select {
+    background-color: #ffffff;
+    padding: 5px;
+  }
+  form label {
+    display: block;
+    width: 100%;
+    margin-bottom: 5px;
+  }
+
+
+  .form-hide {
+    visibility: hidden;
+  }
